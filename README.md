@@ -2,11 +2,9 @@
 
 ## Project Overview
 
-This project is a production focused Agentic AI system built with LangGraph. It implements an intelligent routing architecture capable of understanding user requests and selecting the most appropriate workflow before generating a response.
+This project is an Agentic AI system built with LangGraph that understands user requests and routes them to the most appropriate workflow. Instead of following a fixed sequence, an LLM-based router decides whether to search for supermarket products, compare products, or answer general questions. The system is designed with a modular architecture and focuses on workflow orchestration, reproducibility, and production deployment.
 
-Unlike traditional linear AI pipelines, the system introduces explicit decision making through an LLM router, enabling specialized workflows for supermarket product searches, product comparisons, and general questions.
-
-The project emphasizes modular architecture, workflow orchestration, reproducibility, and deployment in production environments.
+Production system and source code available for live demonstration during technical interviews.
 
 ## Key Features
 
